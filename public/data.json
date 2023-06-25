@@ -1,0 +1,158 @@
+{
+    "me": [
+        {
+            "id": "scientist133",
+            "image": "https://res.mdpi.com/data/software-ebm-prof.-dr.-manuel-mazzara.png",
+            "firstname": "Manuel",
+            "lastname": "Mazzara",
+            "from": "Italy",
+            "info": "Deputy Dean of the Faculty of Computer Science and Engineering",
+            "tags": [
+                "Scientist",
+                "Microservices",
+                "Software Engineering"
+            ],
+            "cluster": "SE",
+            "data": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam iusto quod rem ea accusamus aspernatur sequi labore eligendi adipisci qui natus sint fuga, temporibus doloremque quaerat voluptates blanditiis, necessitatibus inventore praesentium. Minus quo culpa ab in ducimus officiis est id deserunt, deleniti libero fugiat.",
+            "collabs": [
+                "scientist134",
+                "scientist135",
+                "scientist136",
+                "scientist137",
+                "scientist138",
+                "scientist139",
+                "scientist140"
+            ]
+        }
+    ],
+    "collaborations": [
+        {
+            "id": "scientist134",
+            "image": "https://randomuser.me/api/portraits/men/43.jpg",
+            "firstname": "Willard",
+            "lastname": "Wood",
+            "from": "Australia",
+            "info": "Deputy Dean of the Faculty of Computer Science and Engineering",
+            "tags": [
+                "Scientist",
+                "Microservices",
+                "Software Engineering"
+            ],
+            "cluster": "SE",
+            "data": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam iusto quod rem ea accusamus aspernatur sequi labore eligendi adipisci qui natus sint fuga, temporibus doloremque quaerat voluptates blanditiis, necessitatibus inventore praesentium. Minus quo culpa ab in ducimus officiis est id deserunt, deleniti libero fugiat.",
+            "collabs": []
+        },
+        {
+            "id": "scientist135",
+            "image": "https://randomuser.me/api/portraits/women/47.jpg",
+            "firstname": "Sharida",
+            "lastname": "Wielink",
+            "from": "Netherlands",
+            "info": "Student at faculty Computer Science",
+            "tags": [
+                "Scientist",
+                "Microservices",
+                "Software Engineering"
+            ],
+            "cluster": "CS",
+            "data": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam iusto quod rem ea accusamus aspernatur sequi labore eligendi adipisci qui natus sint fuga, temporibus doloremque quaerat voluptates blanditiis, necessitatibus inventore praesentium. Minus quo culpa ab in ducimus officiis est id deserunt, deleniti libero fugiat.",
+            "collabs": []
+        },
+        {
+            "id": "scientist136",
+            "image": "https://randomuser.me/api/portraits/women/26.jpg",
+            "firstname": "Serah",
+            "lastname": "Wolfert",
+            "from": "Netherlands",
+            "info": "Deputy Dean of the Faculty of Computer Science and Engineering",
+            "tags": [
+                "Scientist",
+                "Microservices",
+                "Software Engineering"
+            ],
+            "cluster": "SE",
+            "data": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam iusto quod rem ea accusamus aspernatur sequi labore eligendi adipisci qui natus sint fuga, temporibus doloremque quaerat voluptates blanditiis, necessitatibus inventore praesentium. Minus quo culpa ab in ducimus officiis est id deserunt, deleniti libero fugiat.",
+            "collabs": []
+        },
+        {
+            "id": "scientist137",
+            "image": "https://randomuser.me/api/portraits/men/96.jpg",
+            "firstname": "Miro",
+            "lastname": "Aalto",
+            "from": "Finland",
+            "info": "Deputy Dean of the Faculty of Computer Science and Engineering",
+            "tags": [
+                "Scientist",
+                "Microservices",
+                "Software Engineering"
+            ],
+            "cluster": "SE",
+            "data": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam iusto quod rem ea accusamus aspernatur sequi labore eligendi adipisci qui natus sint fuga, temporibus doloremque quaerat voluptates blanditiis, necessitatibus inventore praesentium. Minus quo culpa ab in ducimus officiis est id deserunt, deleniti libero fugiat.",
+            "collabs": []
+        },
+        {
+            "id": "scientist138",
+            "image": "https://randomuser.me/api/portraits/med/men/62.jpg",
+            "firstname": "Mathis",
+            "lastname": "Guerin",
+            "from": "France",
+            "info": "Deputy Dean of the Faculty of Computer Science and Engineering",
+            "tags": [
+                "Scientist",
+                "Microservices",
+                "Software Engineering"
+            ],
+            "cluster": "CS",
+            "data": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam iusto quod rem ea accusamus aspernatur sequi labore eligendi adipisci qui natus sint fuga, temporibus doloremque quaerat voluptates blanditiis, necessitatibus inventore praesentium. Minus quo culpa ab in ducimus officiis est id deserunt, deleniti libero fugiat.",
+            "collabs": []
+        },
+        {
+            "id": "scientist139",
+            "image": "https://randomuser.me/api/portraits/med/men/37.jpg",
+            "firstname": "Clide",
+            "lastname": "Knight",
+            "from": "Australia",
+            "info": "Deputy Dean of the Faculty of Computer Science and Engineering",
+            "tags": [
+                "Scientist",
+                "Microservices",
+                "Software Engineering"
+            ],
+            "cluster": "CS",
+            "data": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam iusto quod rem ea accusamus aspernatur sequi labore eligendi adipisci qui natus sint fuga, temporibus doloremque quaerat voluptates blanditiis, necessitatibus inventore praesentium. Minus quo culpa ab in ducimus officiis est id deserunt, deleniti libero fugiat.",
+            "collabs": []
+        },
+        {
+            "id": "scientist140",
+            "image": "https://randomuser.me/api/portraits/med/men/94.jpg",
+            "firstname": "Ronald",
+            "lastname": "Kelley",
+            "from": "Australia",
+            "info": "Deputy Dean of the Faculty of Computer Science and Engineering",
+            "tags": [
+                "Scientist",
+                "Microservices",
+                "Software Engineering"
+            ],
+            "cluster": "SE",
+            "data": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam iusto quod rem ea accusamus aspernatur sequi labore eligendi adipisci qui natus sint fuga, temporibus doloremque quaerat voluptates blanditiis, necessitatibus inventore praesentium. Minus quo culpa ab in ducimus officiis est id deserunt, deleniti libero fugiat.",
+            "collabs": []
+        },
+        {
+            "id": "scientist141",
+            "image": "https://randomuser.me/api/portraits/med/women/71.jpg",
+            "firstname": "Clara",
+            "lastname": "Abraham",
+            "from": "Australia",
+            "info": "Deputy Dean of the Faculty of Computer Science and Engineering",
+            "tags": [
+                "Scientist",
+                "Microservices",
+                "Software Engineering"
+            ],
+            "cluster": "SE",
+            "data": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam iusto quod rem ea accusamus aspernatur sequi labore eligendi adipisci qui natus sint fuga, temporibus doloremque quaerat voluptates blanditiis, necessitatibus inventore praesentium. Minus quo culpa ab in ducimus officiis est id deserunt, deleniti libero fugiat.",
+            "collabs": []
+        }
+    ]
+}
