@@ -1,9 +1,13 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
 
+:root {
+  --primary-bg-color: linear-gradient(109.6deg, rgb(0, 182, 255) 11.2%, rgb(102, 51, 153) 91.1%);
+}
+
 #root {
   font-family: Montserrat, sans-serif;
   min-height: 100vh;
-  background: linear-gradient(109.6deg, rgb(0, 182, 255) 11.2%, rgb(102, 51, 153) 91.1%);
+  background: var(--primary-bg-color);
   padding-top: 60px;
   display: flex;
   flex-direction: column;
@@ -19,6 +23,19 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--card-bgcolor);
+  border-radius: 3px;
 }
 
 ul, li {

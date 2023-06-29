@@ -7,10 +7,9 @@ import {
 import RootLayout from "./layouts/RootLayout";
 import Account from "./components/Account";
 import PageNotFound from "./pages/PageNotFound";
-// import Collaborations from "./pages/Collaborations";
-// import Cards from "./components/Cards";
 import Modal from "./components/Modal";
 import CollabsLayout from "./layouts/CollabsLayout";
+import GraphLayout from "./layouts/GraphLayout";
 
 function App() {
   const routes = createBrowserRouter(
@@ -36,7 +35,8 @@ function App() {
             }
           />
         </Route>
-
+        <Route path="/graph" element={<GraphLayout />}
+        />
         {/* 404 */}
         <Route path="*" element={<PageNotFound />} />
       </Route>

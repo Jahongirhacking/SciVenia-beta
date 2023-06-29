@@ -36,7 +36,7 @@ function Cards({ collabs, searchedName }) {
               <Link to={`./${collab.id}`} className="btn">
                 About
               </Link>
-              <Link to={`../graph/${collab.id}`} className="btn">
+              <Link to={`../graph`} className="btn">
                 Show Graph
               </Link>
             </div>
