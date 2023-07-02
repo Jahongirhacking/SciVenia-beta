@@ -1,0 +1,30 @@
+.graph__section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5%;
+    gap: 20px;
+}
+
+.graph__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.graph__body > .card a:nth-child(2) {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.graph {
+    height: 40vh;
+    width: 60vh;
+    background: rgba(255, 255, 255, 0.5);
+    left: calc(27vh - 100px);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}

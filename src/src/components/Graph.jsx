@@ -4,16 +4,26 @@ import {
   NOverlap,
   RelativeSize,
 } from "react-sigma";
+import { v4 as uuid4 } from "uuid";
 import ForceLink from "react-sigma/lib/ForceLink.js";
+import { useNavigate } from "react-router-dom";
 
-function Graph({ convertedData }) {
-  console.log("Test", convertedData);
+function Graph({ nodes = [], edges = [] }) {
+  const navigate = useNavigate();
+  const handleNodeClick = (e) => {
+    navigate(`../graph/${e.data.node.id}`, { replace: true });
+  };
   return (
     <div className="graph">
       <Sigma
-        graph={convertedData}
+        key={JSON.stringify({ nodes, edges })}
+        onClickNode={handleNodeClick}
+        graph={{
+          nodes,
+          edges,
+        }}
         settings={{
-          animationsTime: 1500,
+          animationsTime: 500,
           defaultLabelSize: 15,
           drawLabels: true,
           labelSize: "fixed",
@@ -30,13 +40,13 @@ function Graph({ convertedData }) {
             easing="cubicInOut"
             iterationsPerRender={1}
             linLogMode
-            timeout={100}
+            timeout={50}
             worker
-            outboundAttractionDistribution={false}
+            outboundAttractionDistribution={true}
           />
 
           <NOverlap
-            duration={3000}
+            duration={2000}
             easing="quadraticInOut"
             gridSize={20}
             maxIterations={100}

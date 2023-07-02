@@ -3,11 +3,15 @@ import useFetch from "../hooks/useFetch";
 import style from "./Account.module.css";
 import PropTypes from "prop-types";
 
-function Account({ url, isMyProfile }) {
+function Account({ isMyProfile = false }) {
   const param = useParams();
-  if (!isMyProfile) url += `?id=${param.id}`;
-  const { data, isPending, error } = useFetch(url);
-  const account = data ? data[0] : null;
+  let url = `${localStorage.getItem("baseUrl")}/`;
+  if (isMyProfile) url += localStorage.getItem("userId");
+  else if (localStorage.getItem("aboutUserId")) {
+    url += localStorage.getItem("aboutUserId");
+  } else url += param.id;
+
+  const { data: account, isPending, error } = useFetch(url);
   return (
     <>
       {isPending && <h3 className="loading-text">Loading...</h3>}

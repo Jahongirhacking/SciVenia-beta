@@ -1,6 +1,11 @@
 import { NavLink, Outlet } from "react-router-dom";
 import "./RootLayout.css";
 
+const baseUrl = "http://localhost:3000";
+const userId = "scientist133";
+localStorage.setItem("baseUrl", baseUrl);
+localStorage.setItem("userId", userId);
+
 function RootLayout() {
   return (
     <>
@@ -10,13 +15,15 @@ function RootLayout() {
         </h2>
         <ul className="nav__list">
           <li className="nav__item">
-            <NavLink to="/account">My account</NavLink>
+            <NavLink to={`/account/${localStorage.getItem("userId")}`}>
+              My account
+            </NavLink>
           </li>
           <li className="nav__item">
-            <NavLink to="/collaborations">Collaborations</NavLink>
+            <NavLink to={`/collaborations`}>Collaborations</NavLink>
           </li>
           <li className="nav__item">
-            <NavLink to="/graph">Graph Visualization</NavLink>
+            <NavLink to={`/graph/${userId}`}>Graph Visualization</NavLink>
           </li>
         </ul>
       </nav>

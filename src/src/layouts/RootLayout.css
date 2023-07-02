@@ -53,6 +53,7 @@ main {
     align-items: center;
     gap: 25px;
     position: relative;
+    justify-content: flex-start;
 }
 
 main .loading-text {
@@ -68,7 +69,7 @@ main .loading-text {
 }
 
 footer {
-    padding: 5px 0;
+    padding: 35px 0 20px;
     text-align: center;
     color: var(--text-color);
 }
