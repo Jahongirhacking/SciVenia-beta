@@ -10,12 +10,11 @@ function collabFinder(userId) {
     const getAllCollabs = async () => {
       try {
         setIsPending(true);
-        const resUser = await fetch(`${baseUrl}/${userId}`);
-        const user = await resUser.json();
+        const resUsers = await fetch(`${baseUrl}`);
+        const users = await resUsers.json();
         setData([]);
-        for (let collabId of user.collabs) {
-          const resCollab = await fetch(`${baseUrl}/${collabId}`);
-          const collab = await resCollab.json();
+        for (let collabId of users[userId].collabs) {
+          const collab = users[collabId];
           setData((prev) => [...prev, collab]);
         }
         setIsPending(false);

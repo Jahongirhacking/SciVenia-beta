@@ -11,7 +11,7 @@ import Modal from "./components/Modal";
 import CollabsLayout from "./layouts/CollabsLayout";
 import GraphLayout from "./layouts/GraphLayout";
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = "/data.json";
 const userId = "scientist133";
 localStorage.setItem("baseUrl", baseUrl);
 localStorage.setItem("userId", userId);

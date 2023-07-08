@@ -1,7 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
 import "./RootLayout.css";
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = "/data.json";
 const userId = "scientist133";
 localStorage.setItem("baseUrl", baseUrl);
 localStorage.setItem("userId", userId);
