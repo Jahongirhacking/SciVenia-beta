@@ -1,0 +1,30 @@
+.modal-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  z-index: 998;
+}
+
+.modal-body {
+  margin: auto;
+  position: relative;
+  min-width: 200px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.modal-body > a > .svg-inline--fa.fa-xmark {
+  position: absolute;
+  right: 30px;
+  top: 13px;
+  font-size: 25px;
+  color: var(--primary-color);
+}

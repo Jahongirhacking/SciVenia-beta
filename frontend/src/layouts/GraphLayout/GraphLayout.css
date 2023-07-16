@@ -1,0 +1,47 @@
+.graph__section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 5%;
+  gap: 20px;
+}
+
+.graph__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+}
+
+.graph__body > .card a:nth-child(2) {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.graph__body > .card .common_publics {
+  display: none;
+}
+
+.graph {
+  height: 40vh;
+  width: 60vh;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: block;
+}
+
+.graph input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  z-index: 1;
+  outline: none;
+}

@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #0c1c35;
+  --text-color: #fff;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  padding: 12px 8%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  z-index: 999;
+}
+
+.nav__logo {
+  color: var(--text-color);
+  font-size: 20pt;
+  font-weight: 700;
+  user-select: none;
+  position: relative;
+}
+
+.nav__logo > span {
+  font-size: 9pt;
+  position: absolute;
+  right: -28px;
+  top: -3px;
+  font-weight: 300;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: var(--text-color);
+  font-size: 13pt;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 750px) {
+  .nav__item > a {
+    font-size: 10pt;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .nav__logo {
+    font-size: 13pt;
+  }
+
+  .nav__logo > span {
+    font-size: 7pt;
+  }
+}
+
+.nav__item > a.active {
+  text-shadow: 0 0 5px var(--text-color);
+}
+
+main {
+  flex: 1;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+}
+
+main .loading-text {
+  color: var(--primary-color);
+  text-align: center;
+  padding-top: 10px;
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--card-bgcolor);
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin: auto;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  color: var(--text-color);
+}
